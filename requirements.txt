@@ -1,0 +1,5 @@
+requests
+beautifulsoup4
+python-nmap
+pandas
+reportlab # or another PDF library like fpdf
