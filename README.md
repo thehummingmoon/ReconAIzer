@@ -4,16 +4,15 @@
 
 ReconAIzer is an AI-powered automated reconnaissance tool for penetration testing. It streamlines the initial information-gathering phase by automating OSINT, web server fingerprinting, content enumeration, and report generation. The project is designed to be a proof-of-concept demonstrating how AI can act as a force multiplier in cybersecurity, handling repetitive tasks so a human tester can focus on more complex analysis.
 
-\<br\>
 
-## **Features** \* **Automated OSINT:** Performs Google Dork searches and pulls data from public sources to find exposed files, directories, and sensitive information.
+## **Features** \*
+**Automated OSINT:** Performs Google Dork searches and pulls data from public sources to find exposed files, directories, and sensitive information.
 
   * **Web Server & Application Fingerprinting:** Identifies the web server type, version details, and application frameworks by analyzing HTTP headers and public metafiles.
   * **Sensitive Data Discovery:** Scans HTML and JavaScript source code for potentially sensitive information like API keys, email addresses, and hidden comments.
   * **Network & DNS Enumeration:** Integrates with `nmap` to identify open ports and services, and performs DNS lookups to map the target's infrastructure.
   * **Automated Reporting:** Generates a professional PDF report summarizing all findings, providing a clear overview of the reconnaissance results.
 
-\<br\>
 
 ## **Installation** 💻
 
@@ -51,7 +50,6 @@ ReconAIzer is an AI-powered automated reconnaissance tool for penetration testin
       * `main.py` goes in the root directory.
       * `osint.py`, `fingerprint.py`, `enumerator.py`, and `report_generator.py` go into the `modules/` directory.
 
-\<br\>
 
 ## **Usage** To run the tool, simply execute the `main.py` script from your terminal. You will be prompted to enter the target URL.
 
@@ -70,13 +68,11 @@ Enter the target URL (e.g., http://example.com): http://demo.owasp-juice.shop
 
 The final report, `recon_report.pdf`, will be saved in the same directory.
 
-\<br\>
 
 ## **Disclaimer** ⚠️
 
 This tool is for **educational and ethical purposes only**. You **must** have explicit permission from the owner of the target system before running any form of reconnaissance or penetration test. Unauthorized use is illegal. The creator and contributors of this tool are not responsible for any misuse or damage caused.
 
-\<br\>
 
 ## **Future Enhancements (AI Component)** 🚀
 
